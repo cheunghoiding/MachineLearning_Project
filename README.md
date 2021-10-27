@@ -42,6 +42,7 @@ Car Insurance Data from Kaggle Dataset by Sagnik Roy:
   - Information Gain
   - Loss functions: Entropy, Gini index
 <img width="1141" alt="Screenshot 2021-10-27 at 9 34 35 AM" src="https://user-images.githubusercontent.com/84705479/138984990-a79ebf3d-f80a-47fd-861f-eb0bbbbabb0d.png">
+
 - Using GridSearchCV for hypertuning the parameters
 - max_depth, min_sample_split, & min_sample_leaf
 <img width="1106" alt="Screenshot 2021-10-27 at 9 35 01 AM" src="https://user-images.githubusercontent.com/84705479/138985085-747d8f97-df88-42e3-83d0-e36f2be90063.png">
@@ -50,6 +51,7 @@ Car Insurance Data from Kaggle Dataset by Sagnik Roy:
 - Random forest is a classification algorithm consisting of many decisions trees.
 - It uses bagging and feature randomness when building each individual tree to try to create an uncorrelated forest of trees, which is more accurate than any individual tree.
 <img width="636" alt="Screenshot 2021-10-27 at 9 37 07 AM" src="https://user-images.githubusercontent.com/84705479/138985176-2afae5e9-269f-433a-aef0-4f02428c8e98.png">
+
 - We chose to build 300 trees after CV and 8 min sample leaf, which is minimum 8 samples in a leaf and the accuracy we got is 83.96%.
 
 ## Model Evaluation & Comparison
